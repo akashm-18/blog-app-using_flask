@@ -1,0 +1,7 @@
+SqlAlchemy is a ORM Library for python
+ORM - Object Relational Mapping
+
+SQLAlchemy is a Python-centric SQL toolkit and Object-Relational Mapping (ORM) library designed specifically for the Python programming language. 
+It allows Python developers to interact with relational databases using a high-level, Pythonic API rather than dealing directly with raw SQL queries.
+
+While SQLAlchemy itself is Python-specific, it is often used in conjunction with various web frameworks, including Flask and Django, to provide a seamless integration between Python applications and relational databases.
