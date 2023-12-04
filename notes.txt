@@ -5,3 +5,13 @@ SQLAlchemy is a Python-centric SQL toolkit and Object-Relational Mapping (ORM) l
 It allows Python developers to interact with relational databases using a high-level, Pythonic API rather than dealing directly with raw SQL queries.
 
 While SQLAlchemy itself is Python-specific, it is often used in conjunction with various web frameworks, including Flask and Django, to provide a seamless integration between Python applications and relational databases.
+
+
+creating the database this one part is importance in after 2023 --> Python Flask Tutorial: Full-Featured Web App Part 6 - User Authentication
+
+@9:55
+The 2023_c version is:
+from <app_name> import app, db
+app.app_context().push()
+from <app_name>.models import User
+user = User.query.first()
