@@ -12,6 +12,6 @@ creating the database this one part is importance in after 2023 --> Python Flask
 @9:55
 The 2023_c version is:
 from <app_name> import app, db
-app.app_context().push()
+app.app_context().push()                                ----> To collect any data from db using the terminal
 from <app_name>.models import User
 user = User.query.first()
