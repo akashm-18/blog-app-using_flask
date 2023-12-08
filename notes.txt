@@ -15,3 +15,6 @@ from <app_name> import app, db
 app.app_context().push()                                ----> To collect any data from db using the terminal
 from <app_name>.models import User
 user = User.query.first()
+
+
+# Notes updated for git check
